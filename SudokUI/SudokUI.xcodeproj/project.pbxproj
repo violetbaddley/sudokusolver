@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C7111F7162F47A200F5604C /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7111F6162F47A200F5604C /* AppController.m */; };
+		9C711211162F59B600F5604C /* ArbitraryChooser.pyc in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9C7111F9162F596200F5604C /* ArbitraryChooser.pyc */; };
+		9C711212162F59B900F5604C /* ArcChecker.pyc in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9C7111FA162F596200F5604C /* ArcChecker.pyc */; };
+		9C711213162F59BC00F5604C /* Board.pyc in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9C7111FB162F596200F5604C /* Board.pyc */; };
+		9C711214162F59BF00F5604C /* BoardInterpreter.pyc in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9C7111FC162F596200F5604C /* BoardInterpreter.pyc */; };
+		9C711215162F59C400F5604C /* bookkeeping.pyc in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9C7111FD162F596200F5604C /* bookkeeping.pyc */; };
+		9C711216162F59C800F5604C /* ForwardChecker.pyc in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9C7111FE162F596200F5604C /* ForwardChecker.pyc */; };
+		9C711217162F59CB00F5604C /* LCVChooser.pyc in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9C7111FF162F596200F5604C /* LCVChooser.pyc */; };
+		9C711218162F59CE00F5604C /* MRVChooser.pyc in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9C711200162F596200F5604C /* MRVChooser.pyc */; };
+		9C711219162F59D400F5604C /* NoChecker.pyc in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9C711201162F596200F5604C /* NoChecker.pyc */; };
+		9C71121A162F59D600F5604C /* Sudoku.pyc in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9C711202162F596200F5604C /* Sudoku.pyc */; };
+		9C71121B162F59DC00F5604C /* sudokusolver.py in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9C711203162F596200F5604C /* sudokusolver.py */; };
+		9C71121D16307D4100F5604C /* SudBoard.icns in Resources */ = {isa = PBXBuildFile; fileRef = 9C71121C16307D4100F5604C /* SudBoard.icns */; };
+		9CB050E3162CD5D100BFAEAD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CB050E2162CD5D100BFAEAD /* Cocoa.framework */; };
+		9CB050ED162CD5D100BFAEAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9CB050EB162CD5D100BFAEAD /* InfoPlist.strings */; };
+		9CB050EF162CD5D100BFAEAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB050EE162CD5D100BFAEAD /* main.m */; };
+		9CB050F3162CD5D100BFAEAD /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9CB050F1162CD5D100BFAEAD /* Credits.rtf */; };
+		9CB050F6162CD5D100BFAEAD /* SudokuPuzzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB050F5162CD5D100BFAEAD /* SudokuPuzzle.m */; };
+		9CB050F9162CD5D100BFAEAD /* SudokuPuzzle.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CB050F7162CD5D100BFAEAD /* SudokuPuzzle.xib */; };
+		9CB050FC162CD5D100BFAEAD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CB050FA162CD5D100BFAEAD /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9C71120F162F598500F5604C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				9C711211162F59B600F5604C /* ArbitraryChooser.pyc in CopyFiles */,
+				9C711212162F59B900F5604C /* ArcChecker.pyc in CopyFiles */,
+				9C711213162F59BC00F5604C /* Board.pyc in CopyFiles */,
+				9C711214162F59BF00F5604C /* BoardInterpreter.pyc in CopyFiles */,
+				9C711215162F59C400F5604C /* bookkeeping.pyc in CopyFiles */,
+				9C711216162F59C800F5604C /* ForwardChecker.pyc in CopyFiles */,
+				9C711217162F59CB00F5604C /* LCVChooser.pyc in CopyFiles */,
+				9C711218162F59CE00F5604C /* MRVChooser.pyc in CopyFiles */,
+				9C711219162F59D400F5604C /* NoChecker.pyc in CopyFiles */,
+				9C71121A162F59D600F5604C /* Sudoku.pyc in CopyFiles */,
+				9C71121B162F59DC00F5604C /* sudokusolver.py in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9C7111F5162F47A200F5604C /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		9C7111F6162F47A200F5604C /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		9C7111F9162F596200F5604C /* ArbitraryChooser.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = ArbitraryChooser.pyc; sourceTree = "<group>"; };
+		9C7111FA162F596200F5604C /* ArcChecker.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = ArcChecker.pyc; sourceTree = "<group>"; };
+		9C7111FB162F596200F5604C /* Board.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Board.pyc; sourceTree = "<group>"; };
+		9C7111FC162F596200F5604C /* BoardInterpreter.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = BoardInterpreter.pyc; sourceTree = "<group>"; };
+		9C7111FD162F596200F5604C /* bookkeeping.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = bookkeeping.pyc; sourceTree = "<group>"; };
+		9C7111FE162F596200F5604C /* ForwardChecker.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = ForwardChecker.pyc; sourceTree = "<group>"; };
+		9C7111FF162F596200F5604C /* LCVChooser.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = LCVChooser.pyc; sourceTree = "<group>"; };
+		9C711200162F596200F5604C /* MRVChooser.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = MRVChooser.pyc; sourceTree = "<group>"; };
+		9C711201162F596200F5604C /* NoChecker.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = NoChecker.pyc; sourceTree = "<group>"; };
+		9C711202162F596200F5604C /* Sudoku.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sudoku.pyc; sourceTree = "<group>"; };
+		9C711203162F596200F5604C /* sudokusolver.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = sudokusolver.py; sourceTree = "<group>"; };
+		9C71121C16307D4100F5604C /* SudBoard.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = SudBoard.icns; sourceTree = "<group>"; };
+		9CB050DE162CD5D100BFAEAD /* SudokUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SudokUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CB050E2162CD5D100BFAEAD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		9CB050E5162CD5D100BFAEAD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		9CB050E6162CD5D100BFAEAD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9CB050E7162CD5D100BFAEAD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9CB050EA162CD5D100BFAEAD /* SudokUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SudokUI-Info.plist"; sourceTree = "<group>"; };
+		9CB050EC162CD5D100BFAEAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9CB050EE162CD5D100BFAEAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9CB050F0162CD5D100BFAEAD /* SudokUI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SudokUI-Prefix.pch"; sourceTree = "<group>"; };
+		9CB050F2162CD5D100BFAEAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		9CB050F4162CD5D100BFAEAD /* SudokuPuzzle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SudokuPuzzle.h; sourceTree = "<group>"; };
+		9CB050F5162CD5D100BFAEAD /* SudokuPuzzle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SudokuPuzzle.m; sourceTree = "<group>"; };
+		9CB050F8162CD5D100BFAEAD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SudokuPuzzle.xib; sourceTree = "<group>"; };
+		9CB050FB162CD5D100BFAEAD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CB050DB162CD5D100BFAEAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CB050E3162CD5D100BFAEAD /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C711210162F59A300F5604C /* Solvernator */ = {
+			isa = PBXGroup;
+			children = (
+				9C7111F9162F596200F5604C /* ArbitraryChooser.pyc */,
+				9C7111FA162F596200F5604C /* ArcChecker.pyc */,
+				9C7111FB162F596200F5604C /* Board.pyc */,
+				9C7111FC162F596200F5604C /* BoardInterpreter.pyc */,
+				9C7111FD162F596200F5604C /* bookkeeping.pyc */,
+				9C7111FE162F596200F5604C /* ForwardChecker.pyc */,
+				9C7111FF162F596200F5604C /* LCVChooser.pyc */,
+				9C711200162F596200F5604C /* MRVChooser.pyc */,
+				9C711201162F596200F5604C /* NoChecker.pyc */,
+				9C711202162F596200F5604C /* Sudoku.pyc */,
+				9C711203162F596200F5604C /* sudokusolver.py */,
+			);
+			name = Solvernator;
+			sourceTree = "<group>";
+		};
+		9CB050D3162CD5D100BFAEAD = {
+			isa = PBXGroup;
+			children = (
+				9CB050E8162CD5D100BFAEAD /* SudokUI */,
+				9CB050E1162CD5D100BFAEAD /* Frameworks */,
+				9CB050DF162CD5D100BFAEAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9CB050DF162CD5D100BFAEAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CB050DE162CD5D100BFAEAD /* SudokUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CB050E1162CD5D100BFAEAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CB050E2162CD5D100BFAEAD /* Cocoa.framework */,
+				9CB050E4162CD5D100BFAEAD /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9CB050E4162CD5D100BFAEAD /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CB050E5162CD5D100BFAEAD /* AppKit.framework */,
+				9CB050E6162CD5D100BFAEAD /* CoreData.framework */,
+				9CB050E7162CD5D100BFAEAD /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		9CB050E8162CD5D100BFAEAD /* SudokUI */ = {
+			isa = PBXGroup;
+			children = (
+				9C7111F5162F47A200F5604C /* AppController.h */,
+				9C7111F6162F47A200F5604C /* AppController.m */,
+				9CB050F4162CD5D100BFAEAD /* SudokuPuzzle.h */,
+				9CB050F5162CD5D100BFAEAD /* SudokuPuzzle.m */,
+				9CB050F7162CD5D100BFAEAD /* SudokuPuzzle.xib */,
+				9CB050FA162CD5D100BFAEAD /* MainMenu.xib */,
+				9CB050E9162CD5D100BFAEAD /* Supporting Files */,
+			);
+			path = SudokUI;
+			sourceTree = "<group>";
+		};
+		9CB050E9162CD5D100BFAEAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C71121C16307D4100F5604C /* SudBoard.icns */,
+				9C711210162F59A300F5604C /* Solvernator */,
+				9CB050EA162CD5D100BFAEAD /* SudokUI-Info.plist */,
+				9CB050EB162CD5D100BFAEAD /* InfoPlist.strings */,
+				9CB050EE162CD5D100BFAEAD /* main.m */,
+				9CB050F0162CD5D100BFAEAD /* SudokUI-Prefix.pch */,
+				9CB050F1162CD5D100BFAEAD /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CB050DD162CD5D100BFAEAD /* SudokUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CB050FF162CD5D100BFAEAD /* Build configuration list for PBXNativeTarget "SudokUI" */;
+			buildPhases = (
+				9CB050DA162CD5D100BFAEAD /* Sources */,
+				9CB050DB162CD5D100BFAEAD /* Frameworks */,
+				9CB050DC162CD5D100BFAEAD /* Resources */,
+				9C71120F162F598500F5604C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SudokUI;
+			productName = SudokUI;
+			productReference = 9CB050DE162CD5D100BFAEAD /* SudokUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CB050D5162CD5D100BFAEAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EI;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Talus Baddley";
+			};
+			buildConfigurationList = 9CB050D8162CD5D100BFAEAD /* Build configuration list for PBXProject "SudokUI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9CB050D3162CD5D100BFAEAD;
+			productRefGroup = 9CB050DF162CD5D100BFAEAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CB050DD162CD5D100BFAEAD /* SudokUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9CB050DC162CD5D100BFAEAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CB050ED162CD5D100BFAEAD /* InfoPlist.strings in Resources */,
+				9CB050F3162CD5D100BFAEAD /* Credits.rtf in Resources */,
+				9CB050F9162CD5D100BFAEAD /* SudokuPuzzle.xib in Resources */,
+				9CB050FC162CD5D100BFAEAD /* MainMenu.xib in Resources */,
+				9C71121D16307D4100F5604C /* SudBoard.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CB050DA162CD5D100BFAEAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CB050EF162CD5D100BFAEAD /* main.m in Sources */,
+				9CB050F6162CD5D100BFAEAD /* SudokuPuzzle.m in Sources */,
+				9C7111F7162F47A200F5604C /* AppController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9CB050EB162CD5D100BFAEAD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CB050EC162CD5D100BFAEAD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9CB050F1162CD5D100BFAEAD /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CB050F2162CD5D100BFAEAD /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		9CB050F7162CD5D100BFAEAD /* SudokuPuzzle.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CB050F8162CD5D100BFAEAD /* en */,
+			);
+			name = SudokuPuzzle.xib;
+			sourceTree = "<group>";
+		};
+		9CB050FA162CD5D100BFAEAD /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CB050FB162CD5D100BFAEAD /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9CB050FD162CD5D100BFAEAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9CB050FE162CD5D100BFAEAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9CB05100162CD5D100BFAEAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "Developer ID Application: TALUS BADDLEY";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SudokUI/SudokUI-Prefix.pch";
+				INFOPLIST_FILE = "SudokUI/SudokUI-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9CB05101162CD5D100BFAEAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "Developer ID Application: TALUS BADDLEY";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SudokUI/SudokUI-Prefix.pch";
+				INFOPLIST_FILE = "SudokUI/SudokUI-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CB050D8162CD5D100BFAEAD /* Build configuration list for PBXProject "SudokUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CB050FD162CD5D100BFAEAD /* Debug */,
+				9CB050FE162CD5D100BFAEAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CB050FF162CD5D100BFAEAD /* Build configuration list for PBXNativeTarget "SudokUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CB05100162CD5D100BFAEAD /* Debug */,
+				9CB05101162CD5D100BFAEAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CB050D5162CD5D100BFAEAD /* Project object */;
+}
